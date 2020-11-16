@@ -1,16 +1,24 @@
 # Crop Resize with react hooks & typescript
 
+a small repository for resizing, cropping and rotating an image with typescript, react hooks, react-avatar-editor and react-avatar
+
+### [Live Demo](https://www.npmjs.com/package/react-avatar-editor)
+
 ### Libraries
 
 [react-avatar-editor](https://www.npmjs.com/package/react-avatar-editor).
 [react-avatar](https://www.npmjs.com/package/react-avatar).
 
-## Available Scripts
+## How to use
 
-### `yarn start`
+```
+yarn install
+```
 
-### `yarn test`
+```
+yarn start
+```
 
-### `yarn build`
+Enjoy !
 
 Any suggestions are appreciated, Fork me!
