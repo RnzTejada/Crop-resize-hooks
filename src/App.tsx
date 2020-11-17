@@ -19,24 +19,29 @@ function App() {
   };
 
   return (
-    <div className="App content">
-      <h2>Resize & Crop the photo!</h2>
-      <Editor onCrop={onCrop} editorRef={editorRef} imageSrc={Image} />
-      {newImage ? (
-        <>
-          <Grid container xs={12} justify="center">
-            <Avatar
-              src={newImage}
-              style={{ marginTop: "10px" }}
-              size="250px"
-              round
-            />
-          </Grid>
-        </>
-      ) : (
-        ""
-      )}
-    </div>
+    <>
+      <div className="content">
+        <h2>Resize & Crop the photo!</h2>
+        <Editor onCrop={onCrop} editorRef={editorRef} imageSrc={Image} />
+        {newImage ? (
+          <>
+            <Grid container xs={12} justify="center">
+              <Avatar
+                src={newImage}
+                style={{ marginTop: "10px" }}
+                size="250px"
+                round
+              />
+            </Grid>
+          </>
+        ) : (
+          ""
+        )}
+        <Grid className="by" xs={12}>
+          {`</>`} by <a href="https://github.com/RnzTejada">RnzTejada</a>
+        </Grid>
+      </div>
+    </>
   );
 }
 

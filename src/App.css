@@ -1,8 +1,5 @@
-.App {
-  text-align: center;
-}
-
 .content {
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -11,4 +8,10 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.by {
+  bottom: 0;
+  position: fixed;
+  margin-bottom: 1rem;
 }

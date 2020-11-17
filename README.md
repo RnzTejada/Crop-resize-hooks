@@ -2,7 +2,7 @@
 
 a small repository for resizing, cropping and rotating an image with typescript, react hooks, react-avatar-editor and react-avatar
 
-### [Live Demo](https://www.npmjs.com/package/react-avatar-editor)
+### [Live Demo](https://crop-resize-hooks.vercel.app/)
 
 ### Libraries
 
